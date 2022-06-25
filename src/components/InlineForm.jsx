@@ -1,8 +1,8 @@
-function InlineForm({placeholder,btn,textDark}) {
+function InlineForm({placeholder,btn,type}) {
     return (
         <div className="inlineForm">
-            <input type="tel"  onChange={() => { }} placeholder={placeholder} style={textDark?{border:'1px solid #E8E8E8'}:null}/>
-            <button style={textDark ? {color:'#000'}:{color:'fff'}}>{btn}</button>
+            <input type={type} onChange={(e) => { }} placeholder={placeholder}/>
+            <button>{btn}</button>
         </div>
     )
 }

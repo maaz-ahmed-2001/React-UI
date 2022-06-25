@@ -16,7 +16,7 @@ function Services() {
                 <Row>
                     <ServicesBtnContainer />
                 </Row>
-                <Row xs={12} sm={12} md={12} lg={12} xl={12}>
+                <Row >
                     <Col sm={12} md={6} lg={6}>
                         <div className="servicesMainImg">
                             <img src={bgImg} alt="services-background" />

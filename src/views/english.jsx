@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap"
 
 function English() {
     return (
-        <section style={{ marginTop: "6rem" }}>
+        <section className="otherPages">
             <Container>
                 <h1>English</h1>
             </Container>

@@ -15,7 +15,7 @@ import bannerImg5 from '../assests/images/bannerImg5.svg'
 function Banner() {
     return (
         <>
-            <Header />
+            
             <div className='banner'>
                 <Container>
                     <Row>
@@ -24,7 +24,7 @@ function Banner() {
                                 <div className="bannerHeading">
                                     <h1>The smarter way<br /><b>to order your food</b></h1>
                                 </div>
-                                <InlineForm placeholder="Enter phone number" btn="Send" textDark={false}/>
+                                <InlineForm placeholder="Enter phone number" btn="Send" type="tel"/>
                                 <div className="bannerSocials">
                                     <p>Available on</p>
                                     <img src={apple} alt="apple-icon" />
@@ -33,7 +33,9 @@ function Banner() {
                             </div>
                         </Col>
                         <Col xs={12} sm={12} md={5} lg={5} xl={5}>
-                            <img src={phone} alt="" />
+                            <div  className='bannerPhoneContainer'>
+                                <img src={phone} alt="phone" />
+                            </div>
                         </Col>
                     </Row>
                     <img src={bannerImg1} alt="" className='bannerImg1' />

@@ -8,7 +8,7 @@ function OurPartners() {
         <div className='ourPartners'>
             <Container>
                 <Row>
-                    <Col md={6} lg={6}>
+                    <Col xs={12} sm={12} md={12} lg={6}>
                         <div className='ourPartnersContent'>
                             <div className='content'>
                                 <img src={blueBg} alt="background-img"/>
@@ -22,7 +22,7 @@ function OurPartners() {
                             </div>
                         </div>
                     </Col>
-                    <Col md={6} lg={6}>
+                    <Col xs={12} sm={12} md={12} lg={6}>
                         <div className="partnersContainer">
                             <PartnersContainer />
                         </div>
