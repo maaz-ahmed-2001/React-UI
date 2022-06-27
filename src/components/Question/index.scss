@@ -1,0 +1,155 @@
+@use "../../styles/GlobalCss";
+
+.questions {
+  padding: 7rem 0rem 9rem;
+}
+
+p {
+  text-align: center;
+  color: GlobalCss.$text-primary;
+}
+
+.titleInfo {
+  margin-top: 12px;
+  margin-bottom: 44px;
+  font-size: GlobalCss.$heading-secondary;
+}
+
+.accordion-item {
+  border: none;
+  margin-bottom: 12px;
+}
+
+.accordion-header button {
+  padding: 20px 41px;
+  font-size: GlobalCss.$heading-secondary;
+  font-weight: GlobalCss.$weight-secondary;
+  box-shadow: none;
+  color: GlobalCss.$text-black;
+  border: GlobalCss.$border;
+  border-radius: 10px !important;
+}
+
+.accordion-header button:focus {
+  box-shadow: none;
+  background-color: GlobalCss.$white;
+  color: GlobalCss.$text-black;
+  border-color: GlobalCss.$border-primary;
+}
+
+.accordion-collapse {
+  margin-top: 12px;
+}
+
+.collapsed::after {
+  display: none;
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+  background-color: GlobalCss.$white;
+  color: GlobalCss.$text-black;
+}
+
+.accordion-button:not(.collapsed)::after {
+  display: none;
+}
+
+.accordion-body {
+  border: GlobalCss.$border;
+  border-radius: 10px;
+  padding: 20px 41px;
+
+  h3 {
+    color: GlobalCss.$text-secondary;
+    font-size: GlobalCss.$heading-secondary;
+    font-weight: GlobalCss.$weight-secondary;
+    line-height: 30px;
+    margin-bottom: 12px;
+  }
+
+  p {
+    text-align: start;
+    line-height: 30px;
+  }
+}
+
+.moreQuestions {
+  margin-top: 100px;
+
+  .sectionHeading {
+    margin-bottom: 12px;
+  }
+
+  p {
+    font-size: GlobalCss.$heading-secondary;
+    color: GlobalCss.$text-primary;
+    line-height: 33px;
+    margin: 0 auto;
+    margin-bottom: 44px;
+    max-width: 700px;
+  }
+
+  .helpContainer {
+    border: GlobalCss.$border;
+    text-align: center;
+    border-radius: 10px;
+    padding: 100px 31px 39px;
+
+    h5 {
+      font-size: GlobalCss.$heading-secondary;
+      line-height: 33px;
+    }
+
+    p {
+      margin: 0;
+      font-size: GlobalCss.$text-size;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .moreQuestions .helpContainer:first-child {
+    margin-bottom: 17px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .questions {
+    padding: 78px 0;
+  }
+  .questions .container {
+    padding: 0;
+  }
+  .accordion-body h3 {
+    font-size: GlobalCss.$text-size;
+  }
+  .accordion-item {
+    margin: 0;
+  }
+  .accordion-body {
+    border-radius: 0;
+    border: none;
+    padding: 15px 20px;
+    border-bottom: GlobalCss.$border;
+  }
+  .accordion-collapse {
+    margin-top: 0px;
+  }
+  .accordion-header button {
+    border-radius: 0 !important;
+    border: none;
+    border-bottom: GlobalCss.$border;
+    padding: 15px 20px;
+    font-size: GlobalCss.$text-size;
+  }
+  .moreQuestions {
+    margin-top: 95px;
+  }
+  .moreQuestions .row {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+}

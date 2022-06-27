@@ -19,7 +19,7 @@ h6 {
   margin: 0;
   padding: 0;
 }
-.otherPages{
+.otherPages {
   background-color: #999;
   height: 100vh;
   padding-top: 6rem;
@@ -79,12 +79,11 @@ header .navbar-toggler:focus {
 
 .navLinks {
   padding: 2rem 0;
-
 }
 
 header .navBtn {
   display: none;
-  background-color: #FFD476;
+  background-color: #ffd476;
   color: #000;
   border-radius: 4px;
   padding-top: 6px;
@@ -96,7 +95,7 @@ header .navBtn {
 }
 
 .navLinks a {
-  color: #14243C;
+  color: #14243c;
   font-size: 16px;
   text-decoration: none;
   font-weight: 400;
@@ -105,7 +104,7 @@ header .navBtn {
 }
 
 .navLinks a:hover {
-  color: #14243C;
+  color: #14243c;
 }
 
 /****************** Header End ******************/
@@ -139,6 +138,7 @@ header .navBtn {
 
 .inlineForm {
   margin-bottom: 30px;
+  display: flex;
 }
 
 .inlineForm input {
@@ -151,10 +151,11 @@ header .navBtn {
   outline: none;
   font-size: 16px;
   min-width: 100px;
+  flex-grow: 1;
 }
 
 .inlineForm input::placeholder {
-  color: #868E95;
+  color: #868e95;
 }
 
 .inlineForm button {
@@ -163,7 +164,7 @@ header .navBtn {
   min-width: 100px;
   border-radius: 4px;
   border: none;
-  background-color: #FFD476;
+  background-color: #ffd476;
   color: #000;
   font-size: 16px;
   font-weight: 400;
@@ -175,6 +176,7 @@ header .navBtn {
 .bannerSocials p {
   color: #fff;
   margin-bottom: 24px;
+  text-align: left;
 }
 
 .bannerSocials img {
@@ -275,7 +277,7 @@ header .navBtn {
   font-size: 42px;
   line-height: 70px;
   font-weight: 400;
-  color: #68BAE3;
+  color: #68bae3;
 }
 
 .sectionHeading h2 b {
@@ -298,14 +300,14 @@ header .navBtn {
   width: fit-content;
   gap: 16px;
 }
-.servicesBtn img{
+.servicesBtn img {
   height: 120px;
   width: 120px;
 }
 
 .servicesBtn p {
   font-size: 22px;
-  color: #868E95;
+  color: #868e95;
 }
 
 .servicesMainImg {
@@ -332,14 +334,14 @@ header .navBtn {
 }
 
 .servicesContent .content:nth-child(2) {
-  background-color: #EBF7FC;
+  background-color: #ebf7fc;
   border-radius: 10px;
   position: relative;
 }
 
 .servicesContent .content:nth-child(2)::before {
   content: "";
-  border-top: 30px solid #EBF7FC;
+  border-top: 30px solid #ebf7fc;
   border-bottom: transparent;
   border-left: 30px solid transparent;
   border-right: transparent;
@@ -353,20 +355,21 @@ header .navBtn {
 .servicesContent .content p {
   line-height: 30px;
   font-size: 16px;
-  color: #868E95;
+  color: #868e95;
+  text-align: left;
 }
 
 .servicesContent .content h4 {
   margin-bottom: 10px;
-  color: #68BAE3;
+  color: #68bae3;
   line-height: 30px;
   font-size: 22px;
   font-weight: 400;
 }
-.servicesBtnContainer .nav-tabs{
+.servicesBtnContainer .nav-tabs {
   display: flex !important ;
 }
-.resSlider{
+.resSlider {
   display: none;
 }
 
@@ -399,7 +402,7 @@ header .navBtn {
 
 .findUs .inlineForm input {
   max-width: 100%;
-  border: 1px solid #E8E8E8;
+  border: 1px solid #e8e8e8;
 }
 
 .findUsImgContainer {
@@ -460,7 +463,7 @@ header .navBtn {
   margin-top: 5px;
   font-size: 16px;
   line-height: 30px;
-  color: #868E95;
+  color: #868e95;
   width: 300px;
 }
 
@@ -468,7 +471,7 @@ header .navBtn {
   position: relative;
   width: auto;
 }
-.partnersContainer img{
+.partnersContainer img {
   height: 160px;
   width: 160px;
 }
@@ -478,14 +481,13 @@ header .navBtn {
   top: -200px;
   /* left: -100px; */
   left: 0px;
-
 }
 
 .partnersContainer img:nth-child(2) {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
 .partnersContainer img:nth-child(3) {
@@ -508,7 +510,6 @@ header .navBtn {
 
 /***************** OurPartners End *****************/
 
-
 @media screen and (max-width: 991px) {
   .navLinksContainer {
     flex-direction: column;
@@ -519,19 +520,19 @@ header .navBtn {
     gap: 0;
     margin-top: 20px;
   }
-  .bannerImg1{
+  .bannerImg1 {
     height: 100%;
   }
-  .bannerImg2{
+  .bannerImg2 {
     right: -100px;
     top: 0;
     height: 15%;
   }
-  .bannerImg4{
+  .bannerImg4 {
     height: 40%;
     right: 0;
   }
-  .bannerImg5{
+  .bannerImg5 {
     height: 40%;
   }
   .navLinksContainer a {
@@ -541,7 +542,7 @@ header .navBtn {
   .navLinksContainer li {
     width: 100%;
     padding: 10px 0;
-    border-top: 1px solid #E8E8E8;
+    border-top: 1px solid #e8e8e8;
   }
 
   .navLinksContainer li:last-child {
@@ -562,28 +563,27 @@ header .navBtn {
 
   header .navBtn {
     display: block;
-
   }
-  .servicesMainImg img:first-child{
+  .servicesMainImg img:first-child {
     height: 50%;
   }
-  .findUsBgImg1{
+  .findUsBgImg1 {
     height: 100%;
   }
-  .findUsBgImg2{
+  .findUsBgImg2 {
     height: 40%;
     bottom: 5%;
     right: 30%;
   }
-  .details{
+  .details {
     margin: 0 auto;
   }
-  .content img{
+  .content img {
     top: 50%;
     left: 50% !important;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
   }
-  .partnersContainer{
+  .partnersContainer {
     margin-top: 20rem;
   }
   .partnersContainer img {
@@ -592,254 +592,253 @@ header .navBtn {
   }
 }
 
-@media screen and (max-width: 767px){
-  .bannerHeading h1{
+@media screen and (max-width: 767px) {
+  .bannerHeading h1 {
     margin: 2rem auto;
     margin-bottom: 4rem;
   }
-  .bannerLeftSideContent{
+  .bannerLeftSideContent {
     text-align: center;
     margin-bottom: 7rem;
   }
-  .bannerSocials img{
+  .bannerSocials p {
+    text-align: center;
+  }
+  .bannerSocials img {
     height: 70px;
     width: 70px;
   }
-  .bannerImg1{
+  .bannerImg1 {
     display: none;
   }
-  .banner{
+  .banner {
     background-image: url(assests/images/bannerResBg1.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -800px;
     background-position-x: 50%;
   }
-  .bannerImg3{
+  .bannerImg3 {
     top: 200px;
     transform: rotate(-20deg);
     left: -100px;
   }
-  .bannerImg2{
+  .bannerImg2 {
     display: none;
   }
-  .bannerImg5{
+  .bannerImg5 {
     display: none;
   }
-  .banner .inlineForm{
+  .banner .inlineForm {
     display: flex;
     justify-content: center;
   }
-  .banner .inlineForm input{
+  .banner .inlineForm input {
     flex-grow: 1;
   }
-  .servicesContent{
+  .servicesContent {
     margin-top: 2rem;
   }
   .servicesContent .content:nth-child(2)::before {
     display: none;
   }
-  .servicesBtn img{
+  .servicesBtn img {
     max-width: 100%;
   }
-  .servicesBtnContainer .nav-tabs{
-    display: none  !important;
+  .servicesBtnContainer .nav-tabs {
+    display: none !important;
   }
-  .resSlider{
+  .resSlider {
     display: block;
     width: 100%;
   }
-  .resSlider img{
+  .resSlider img {
     height: 140px;
     width: 140px;
   }
-  .resSlider button{
+  .resSlider button {
     display: none;
   }
-  .resSlider a{
+  .resSlider a {
     display: none;
   }
-  .resSlider .carousel-item p{
+  .resSlider .carousel-item p {
     text-align: center;
     margin-top: 1rem;
     size: 22px;
     line-height: 33px;
-    color: #868E95;
+    color: #868e95;
   }
-  .resSlider .sliderItem{
+  .resSlider .sliderItem {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .resSlider .sliderItem .itemInner{
+  .resSlider .sliderItem .itemInner {
     width: fit-content;
     padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0px 20px 30px rgba(221, 233, 243, 0.75);
   }
-  .services{
+  .services {
     padding: 3rem 0;
   }
-  .findUs{
+  .findUs {
     padding: 6rem 0;
     overflow-x: hidden;
     height: fit-content;
     position: relative;
   }
-  .findUsContent .sectionHeading h2{
+  .findUsContent .sectionHeading h2 {
     text-align: center !important;
   }
-  .findUsContent .inlineForm{
+  .findUsContent .inlineForm {
     display: flex;
   }
-  .findUsContent .inlineForm input{
+  .findUsContent .inlineForm input {
     flex-grow: 1;
   }
-  .findUsContent{
+  .findUsContent {
     margin-bottom: 8rem;
   }
-  .servicesMainImg img{
+  .servicesMainImg img {
     width: 100%;
   }
-  .findUsBgImg1{
+  .findUsBgImg1 {
     position: absolute;
     top: 250px;
     right: 0;
     height: 70%;
   }
-  .findUsBgImg2{
+  .findUsBgImg2 {
     height: 40%;
   }
   .details {
     margin: 0 auto;
   }
-  .ourPartners{
+  .ourPartners {
     padding: 8rem 0 6rem;
   }
-  .ourPartnersContent .content{
+  .ourPartnersContent .content {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
   }
-  .ourPartnersContent .content .details p{
+  .ourPartnersContent .content .details p {
     width: fit-content;
     max-width: 400px;
     margin: 0 auto !important;
   }
-  .ourPartnersContent .content img{
+  .ourPartnersContent .content img {
     top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: -9;
-
   }
-  .ourPartnersContent .content h2{
+  .ourPartnersContent .content h2 {
     text-align: center;
   }
-  .partnersContainer{
+  .partnersContainer {
     padding: 15rem 0;
     margin-top: 0;
   }
-  .partnersContainer img{
+  .partnersContainer img {
     width: 150px;
     height: 150px;
   }
-  .partnersContainer img:first-child{
+  .partnersContainer img:first-child {
     top: 200px;
   }
-  .partnersContainer img:nth-child(2){
+  .partnersContainer img:nth-child(2) {
     top: 60%;
     left: 50%;
-    transform: translate(-50%,-50%);
-
+    transform: translate(-50%, -50%);
   }
-  .partnersContainer img:nth-child(3){
+  .partnersContainer img:nth-child(3) {
     top: 250px;
     left: unset;
     right: 0px;
   }
-  .partnersContainer img:nth-child(4){
+  .partnersContainer img:nth-child(4) {
     bottom: 0px;
     left: unset;
-    right: 30px ;
+    right: 30px;
   }
-  .partnersContainer img:last-child{
+  .partnersContainer img:last-child {
     bottom: -200px;
     left: 0;
   }
 }
-@media screen and (max-width:575px){
-  header{
+@media screen and (max-width: 575px) {
+  header {
     padding: 0rem;
   }
-  .banner{
+  .banner {
     background-position-y: -700px;
     padding-bottom: 3rem;
   }
-  .bannerHeading h1{
+  .bannerHeading h1 {
     font-size: 28px;
     line-height: 33px;
     text-align: center;
     margin: 0rem auto;
     margin-bottom: 2rem;
   }
-  .bannerImg4{
+  .bannerImg4 {
     height: 25%;
     bottom: -5%;
-    left:50%;
-    transform: translate(-50%,-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
-  .findUsBgImg1{
+  .findUsBgImg1 {
     height: 60%;
   }
-  .sectionHeading h2{
+  .sectionHeading h2 {
     font-size: 28px;
   }
-  .ourPartners{
+  .ourPartners {
     overflow-x: hidden;
   }
-  .ourPartnersContent img{
+  .ourPartnersContent img {
     top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: -9;
   }
-  .ourPartnersContent .content{
+  .ourPartnersContent .content {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .partnersContainer img:nth-child(1){
+  .partnersContainer img:nth-child(1) {
     top: 170px;
   }
-  .partnersContainer img:nth-child(2){
+  .partnersContainer img:nth-child(2) {
     top: 65%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
   }
-  .partnersContainer img:nth-child(3){
+  .partnersContainer img:nth-child(3) {
     top: 200px;
   }
-  .partnersContainer img:nth-child(4){
+  .partnersContainer img:nth-child(4) {
     right: 0px;
     bottom: -50px;
   }
-  .partnersContainer img:last-child{
-    bottom:-250px ;
+  .partnersContainer img:last-child {
+    bottom: -250px;
   }
 }
 
-@media screen and (max-width:424px){
-  
-  .findUsBgImg1{
+@media screen and (max-width: 424px) {
+  .findUsBgImg1 {
     height: 55%;
     top: 40%;
   }
-  .findUsBgImg2{
+  .findUsBgImg2 {
     height: 30%;
   }
-  .findUsContent{
+  .findUsContent {
     margin-bottom: 10rem;
   }
-  
 }

@@ -1,0 +1,34 @@
+@use "../../styles/GlobalCss";
+
+.getApp {
+  padding: 7rem 0;
+  background-color: GlobalCss.$bg-primary;
+
+  .sectionHeading {
+    margin-bottom: 4px;
+  }
+
+  .info {
+    font-size: GlobalCss.$text-size;
+    line-height: 30px;
+    margin-bottom: 35px;
+  }
+
+  .imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 17px;
+  }
+
+  img {
+    cursor: pointer;
+  }
+  @media screen and (max-width: 767px) {
+    .imgContainer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

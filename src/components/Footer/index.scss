@@ -1,0 +1,80 @@
+@use "../../styles/GlobalCss";
+
+footer {
+  background-color: GlobalCss.$bg-primary;
+
+  .row {
+    display: flex;
+    align-items: flex-start;
+  }
+  .topBar {
+    padding: 6rem 0 2.5rem;
+
+    .footerLogo img {
+      max-width: 100%;
+    }
+    ul {
+      list-style-type: none;
+    }
+    li:first-child {
+      font-size: GlobalCss.$text-size;
+      font-weight: GlobalCss.$bold;
+      line-height: 24px;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+    }
+    li:not(:first-child) {
+      margin-bottom: 10px;
+    }
+    a {
+      color: GlobalCss.$text-primary;
+      text-decoration: none;
+    }
+    .app p {
+      line-height: 30px;
+    }
+    .iconContainer {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+
+      img {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .bottomBar {
+    padding: 24px 0;
+    font-size: GlobalCss.$text-size;
+    color: GlobalCss.$text-primary;
+    border-top: GlobalCss.$border;
+    p {
+      text-align: left;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  footer {
+    .topBar {
+      padding: 3.5rem 0 3rem;
+
+      .footerLogo {
+        margin-bottom: 40px;
+      }
+      ul {
+        margin-bottom: 40px;
+      }
+      .iconContainer {
+        margin-top: 20px;
+        justify-content: center;
+        gap: 20px;
+      }
+    }
+    .bottomBar p {
+      text-align: center;
+    }
+  }
+}

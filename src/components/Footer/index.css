@@ -1,0 +1,71 @@
+footer {
+  background-color: #f2f9ff;
+}
+footer .row {
+  display: flex;
+  align-items: flex-start;
+}
+footer .topBar {
+  padding: 6rem 0 2.5rem;
+}
+footer .topBar .footerLogo img {
+  max-width: 100%;
+}
+footer .topBar ul {
+  list-style-type: none;
+}
+footer .topBar li:first-child {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+footer .topBar li:not(:first-child) {
+  margin-bottom: 10px;
+}
+footer .topBar a {
+  color: #868e95;
+  text-decoration: none;
+}
+footer .topBar .app p {
+  line-height: 30px;
+}
+footer .topBar .iconContainer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+footer .topBar .iconContainer img {
+  cursor: pointer;
+}
+footer .bottomBar {
+  padding: 24px 0;
+  font-size: 16px;
+  color: #868e95;
+  border-top: 1px solid #e8e8e8;
+}
+footer .bottomBar p {
+  text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+  footer .topBar {
+    padding: 3.5rem 0 3rem;
+  }
+  footer .topBar .footerLogo {
+    margin-bottom: 40px;
+  }
+  footer .topBar ul {
+    margin-bottom: 40px;
+  }
+  footer .topBar .iconContainer {
+    margin-top: 20px;
+    justify-content: center;
+    gap: 20px;
+  }
+  footer .bottomBar p {
+    text-align: center;
+  }
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,43 @@
+@use "../../styles/GlobalCss";
+
+.business {
+  padding: 7rem 0 6rem;
+  text-align: center;
+
+  h2 {
+    font-size: GlobalCss.$heading-primary;
+    font-weight: GlobalCss.$weight-secondary;
+    line-height: 70px;
+    color: GlobalCss.$text-secondary;
+    margin-bottom: 4px;
+  }
+
+  p {
+    font-size: GlobalCss.$text-size;
+    line-height: 30px;
+    max-width: 540px;
+    margin: 0 auto;
+    margin-bottom: 37px;
+  }
+  .inlineForm {
+    justify-content: center;
+  }
+  input {
+    border: GlobalCss.$border;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .business {
+    h2 {
+      font-size: GlobalCss.$heading-responsive;
+    }
+    .inlineForm {
+      display: flex;
+      justify-content: center;
+      button {
+        margin-left: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,154 @@
+.questions {
+  padding: 7rem 0rem 9rem;
+}
+
+p {
+  text-align: center;
+  color: #868e95;
+}
+
+.titleInfo {
+  margin-top: 12px;
+  margin-bottom: 44px;
+  font-size: 22px;
+}
+
+.accordion-item {
+  border: none;
+  margin-bottom: 12px;
+}
+
+.accordion-header button {
+  padding: 20px 41px;
+  font-size: 22px;
+  font-weight: 400;
+  box-shadow: none;
+  color: #14243c;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px !important;
+}
+
+.accordion-header button:focus {
+  box-shadow: none;
+  background-color: #fff;
+  color: #14243c;
+  border-color: #e8e8e8;
+}
+
+.accordion-collapse {
+  margin-top: 12px;
+}
+
+.collapsed::after {
+  display: none;
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+  background-color: #fff;
+  color: #14243c;
+}
+
+.accordion-button:not(.collapsed)::after {
+  display: none;
+}
+
+.accordion-body {
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  padding: 20px 41px;
+}
+.accordion-body h3 {
+  color: #68bae3;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 12px;
+}
+.accordion-body p {
+  text-align: start;
+  line-height: 30px;
+}
+
+.moreQuestions {
+  margin-top: 100px;
+}
+.moreQuestions .sectionHeading {
+  margin-bottom: 12px;
+}
+.moreQuestions p {
+  font-size: 22px;
+  color: #868e95;
+  line-height: 33px;
+  margin: 0 auto;
+  margin-bottom: 44px;
+  max-width: 700px;
+}
+.moreQuestions .helpContainer {
+  border: 1px solid #e8e8e8;
+  text-align: center;
+  border-radius: 10px;
+  padding: 100px 31px 39px;
+}
+.moreQuestions .helpContainer h5 {
+  font-size: 22px;
+  line-height: 33px;
+}
+.moreQuestions .helpContainer p {
+  margin: 0;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .moreQuestions .helpContainer:first-child {
+    margin-bottom: 17px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .questions {
+    padding: 78px 0;
+  }
+
+  .questions .container {
+    padding: 0;
+  }
+
+  .accordion-body h3 {
+    font-size: 16px;
+  }
+
+  .accordion-item {
+    margin: 0;
+  }
+
+  .accordion-body {
+    border-radius: 0;
+    border: none;
+    padding: 15px 20px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+
+  .accordion-collapse {
+    margin-top: 0px;
+  }
+
+  .accordion-header button {
+    border-radius: 0 !important;
+    border: none;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 15px 20px;
+    font-size: 16px;
+  }
+
+  .moreQuestions {
+    margin-top: 95px;
+  }
+
+  .moreQuestions .row {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,28 @@
+.getApp {
+  padding: 7rem 0;
+  background-color: #f2f9ff;
+}
+.getApp .sectionHeading {
+  margin-bottom: 4px;
+}
+.getApp .info {
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 35px;
+}
+.getApp .imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 17px;
+}
+.getApp img {
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .getApp .imgContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}/*# sourceMappingURL=index.css.map */
